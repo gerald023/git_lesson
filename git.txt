@@ -1,0 +1,21 @@
+to initialize the git file you type = git init
+the (git add .) command add every file to the repository
+(git add index.html) adds only the html file named index to the repository.
+to check the files that have been added to the repository so far we use (git status).
+to commit to the repository (git commit -m "added index page") the '-m' stands for message which is written in the quotation mark.
+when you commit for the first time, the git asks who you are, meaning you have to provide your email and your username messages like this will be seen > 
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+
+to enter your email and username your do this >
+git config --global user.email = "you@example.com"
+git config --global user.name "your name" 
+
+to know the branch we are on we do > (git branch) by default the git branch is named master 
+but to change the git branch we do (git branch -M main) the name changes to main.
+
+to link our project to github we do (git remote add origin https://github.com/gerald023/git_lesson.git). this links the project file to the repository named git_lesson.
+to remve from the github we do (git remote remove origin)
+
+PUSHING THE CODE ADDED AND COMMITED TO THE REPOSITORY 
+(git push -u origin main)
